@@ -1,0 +1,44 @@
+body{
+    background-color: grey;
+}
+h1{
+    color: beige;
+}
+
+h2{
+    color: gold;
+}
+ol{
+    font-weight: bold;
+
+}
+
+button{
+        background-color: blueviolet; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    
+}
+.results1{
+    font-weight: bolder;
+
+}
+
+.results2{
+    font-weight: bolder;
+
+}
+.results3{
+    font-weight: bolder;
+
+}
+.results4{
+    font-weight: bolder;
+
+}
+
