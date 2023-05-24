@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ToDoStyles/ToDoStyles.css">
+    <title>ToDolist</title>
+</head>
+<body>
+
+    <main>
+        <ol>
+            <li> Please, click on the button to get a Task</li>
+            <li> Enter the Number of the Tasks</li>
+            <li>The four task are listed below</li>
+        <ol/>
+        <br>
+        <ul>
+            <li> <option> Task: Cook  </option></li>
+            <li> <option> Task: Clean </option></li>
+            <li> <option> Task: Drive </option></li>
+            <li> <option> Task:  Work </option></li>
+        </ul>
+    <br>
+
+    <h2> Get Task &emsp13; <button type="button" onclick="getTask()">Get Task</button> </h2>
+
+    <br>
+    <br>
+
+<div  class="avaliableTasks" id="avaliableTasks">
+
+    <section class="avaliableTasks" id="avaliableTasks"> Selected Tasks </section>
+    <br>
+
+
+</div>
+<button type="button" onclick="completedTasks()" >Submit </button>
+<div id="completedTasks"></div>
+</main>
+
+    
+    <script src="/js/FSDI_ToDo_List/ToDoScripts/ToDoScripts.js"></script>
+
+</body>
+</html>
